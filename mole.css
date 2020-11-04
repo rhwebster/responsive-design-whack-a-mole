@@ -1,9 +1,10 @@
 /* Write your CSS here. */
 .whack-a-mole {
-    height: 640px;
-    width: 482px;
+    height: 482px;
+    width: 640px;
     position: relative;
-    
+    display: inline-block;
+    overflow: hidden;
 }
 
 .whack-a-mole__head {
@@ -18,4 +19,12 @@
     width: 640px;
     position: absolute;
     top: 262px;
+}
+
+.whack-a-mole__head--hidden {
+    margin-top: 482px;
+}
+
+body {
+    zoom: 0.5;
 }
