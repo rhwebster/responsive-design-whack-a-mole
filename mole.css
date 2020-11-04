@@ -1,30 +1,39 @@
 /* Write your CSS here. */
-.whack-a-mole {
-    height: 482px;
-    width: 640px;
+.wgs {
+    height: 241px;
+    width: 320px;
     position: relative;
     display: inline-block;
     overflow: hidden;
 }
 
-.whack-a-mole__head {
-    height: 356px;
-    width: 376px;
+.wgs__mole-head {
+    height: 178px;
+    width: 188px;
     position: absolute;
-    left: 109px;
+    left: 54px;
+    transition-property: margin-top;
+    transition-duration: 0.25s;
 }
 
-.whack-a-mole__hill {
-    height: 220px;
-    width: 640px;
+.wgs__mole-hill {
+    height: 110px;
+    width: 320px;
     position: absolute;
-    top: 262px;
+    top: 131px;
 }
 
-.whack-a-mole__head--hidden {
-    margin-top: 482px;
+.wgs__mole-head--hidden {
+    margin-top: 241px;
 }
 
 body {
     zoom: 0.5;
+}
+
+.pf {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+
 }
