@@ -1,1 +1,21 @@
 /* Write your CSS here. */
+.whack-a-mole {
+    height: 640px;
+    width: 482px;
+    position: relative;
+    
+}
+
+.whack-a-mole__head {
+    height: 356px;
+    width: 376px;
+    position: absolute;
+    left: 109px;
+}
+
+.whack-a-mole__hill {
+    height: 220px;
+    width: 640px;
+    position: absolute;
+    top: 262px;
+}
